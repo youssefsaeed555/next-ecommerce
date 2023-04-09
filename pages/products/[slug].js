@@ -99,6 +99,7 @@ function Product({ product, comments }) {
           </form>
           {commentsData.map((comment) => (
             <div
+              key={comment._id}
               style={{
                 display: "flex",
                 padding: "10px",

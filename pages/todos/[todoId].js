@@ -5,7 +5,7 @@ import path from "path";
 
 const SingleTodo = ({ todo }) => {
   console.log(todo);
-  return <div>the todo is :{todo.title} </div>;
+  return <div>the todo is :{todo?.title} </div>;
 };
 
 export async function getStaticProps(context) {
